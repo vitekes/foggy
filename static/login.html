@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/fixed.css" title="fixed" media="screen" />
+	
+	<title>FoggyFox | Вход в систему</title>
+
+</head>
+<body id="loginpage">
+
+        <div class="container_16 clearfix">
+            <div class="push_5 grid_6">
+                <a href="#"><img src="../images/biglogo.png" ></a>
+            </div>
+            <div class="clear"></div>
+            <div class="widget push_5 grid_6" id="login">
+                <div class="widget_title">
+                    <h2>Вход в систему</h2>
+                </div>
+                <div class="widget_body">
+                    <div class="widget_content">
+                        <form method="post" id="login_form">
+                            <label class="block" for="username">Имя пользователя:</label>
+                            <input type="text" name="username" class="large"/>
+                            <label class="block" for="password">Пароль:</label>
+                            <input type="password" name="password" class="large" />
+
+                            <div id="form_btn" style="margin-top:10px">
+                                <label class="left"><input type="checkbox" />Помнить меня</label>
+                                <a id="signin-btn" class="btn right large" onclick="document.getElementById('login_form').submit();">Вход</a>
+                                <a class="btn right large orange"  href="/register">Регистрация </a>
+                            </div>
+                            <div class="clear"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</body>
+
+</html>
+
+        
